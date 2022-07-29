@@ -1,0 +1,159 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.productivityease.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Mode Settings"
+        android:textSize="30dp" />
+
+<!--      <Button-->
+<!--         android:id="@+id/infobutton"-->
+<!--         android:layout_width="20dp"-->
+<!--         android:layout_height="20dp"-->
+<!--         android:layout_toRightOf="@+id/textView1"-->
+<!--         android:layout_marginLeft="140dp"-->
+<!--         android:layout_marginTop="35dp"-->
+<!--         android:text="i"-->
+<!--         android:background="@color/teal_200"-->
+<!--         /> -->
+    <ImageView
+        android:id="@+id/imagesilent"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="16dp"
+        android:tintMode="screen"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:src="@drawable/silent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imagesilent"
+        android:background="@color/white"
+        android:text="silent" />
+
+    <ImageView
+        android:id="@+id/imagevibrate"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imagesilent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:src="@drawable/vibrate" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imagevibrate"
+        android:background="@color/white"
+        android:text="vibrate" />
+
+    <ImageView
+        android:id="@+id/imagering"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imagevibrate"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:src="@drawable/ring" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imagering"
+        android:background="@color/white"
+        android:text="ring" />
+
+    <ImageView
+        android:id="@+id/imageauto"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imagering"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:src="@drawable/auto" />
+
+    <Button
+        android:id="@+id/auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imageauto"
+        android:background="@color/white"
+        android:text="Auto Mode" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="338dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="44dp"
+        android:text="sorry 'do not disturb' permission not allowed "
+        android:visibility="invisible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/auto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <Button
+        android:id="@+id/studymode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/auto"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="46dp"
+        android:text="Study mode"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/focusmode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studymode"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:textSize="32sp"
+        android:text="Focus mode" />
+    />
+</RelativeLayout>
+
+    <!--make it a focus app for study and work
+and also use email login for personalization-->
+
+
